@@ -1,0 +1,647 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "importPath": "getpass",
+        "description": "getpass",
+        "isExtraImport": true,
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "OptionParser",
+        "importPath": "optparse",
+        "description": "optparse",
+        "isExtraImport": true,
+        "detail": "optparse",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "print_",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "CharField",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanField",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "DateField",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKeyField",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDatabase",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "DoesNotExist",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "CockroachDatabase",
+        "importPath": "playhouse.cockroachdb",
+        "description": "playhouse.cockroachdb",
+        "isExtraImport": true,
+        "detail": "playhouse.cockroachdb",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "playhouse.reflection",
+        "description": "playhouse.reflection",
+        "isExtraImport": true,
+        "detail": "playhouse.reflection",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMember",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMember",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "importPath": "loader",
+        "description": "loader",
+        "isExtraImport": true,
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "loader",
+        "description": "loader",
+        "isExtraImport": true,
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "on_start",
+        "importPath": "loader",
+        "description": "loader",
+        "isExtraImport": true,
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "EditUserFSM",
+        "importPath": "state",
+        "description": "state",
+        "isExtraImport": true,
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "env",
+        "description": "env",
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "StateFilter",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultBotProperties",
+        "importPath": "aiogram.client.default",
+        "description": "aiogram.client.default",
+        "isExtraImport": true,
+        "detail": "aiogram.client.default",
+        "documentation": {}
+    },
+    {
+        "label": "ParseMode",
+        "importPath": "aiogram.enums.parse_mode",
+        "description": "aiogram.enums.parse_mode",
+        "isExtraImport": true,
+        "detail": "aiogram.enums.parse_mode",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "find_birthdays",
+        "importPath": "check_b_day",
+        "description": "check_b_day",
+        "isExtraImport": true,
+        "detail": "check_b_day",
+        "documentation": {}
+    },
+    {
+        "label": "random_image",
+        "importPath": "pic_api",
+        "description": "pic_api",
+        "isExtraImport": true,
+        "detail": "pic_api",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "handlers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "handlers",
+        "description": "handlers",
+        "detail": "handlers",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "kind": 6,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "class BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "UnknownField",
+        "kind": 6,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "class UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],\n    MySQLDatabase: ['mysql', 'mysqldb'],\n    PostgresqlDatabase: ['postgres', 'postgresql'],\n    SqliteDatabase: ['sqlite', 'sqlite3'],\n}\nDATABASE_MAP = dict((value, key)",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "make_introspector",
+        "kind": 2,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "def make_introspector(database_type, database_name, **kwargs):\n    if database_type not in DATABASE_MAP:\n        err('Unrecognized database, must be one of: %s' %\n            ', '.join(DATABASE_MAP.keys()))\n        sys.exit(1)\n    schema = kwargs.pop('schema', None)\n    DatabaseClass = DATABASE_MAP[database_type]\n    db = DatabaseClass(database_name, **kwargs)\n    return Introspector.from_database(db, schema=schema)\ndef print_models(introspector, tables=None, preserve_order=False,",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "print_models",
+        "kind": 2,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "def print_models(introspector, tables=None, preserve_order=False,\n                 include_views=False, ignore_unknown=False, snake_case=True):\n    database = introspector.introspect(table_names=tables,\n                                       include_views=include_views,\n                                       snake_case=snake_case)\n    db_kwargs = introspector.get_database_kwargs()\n    header = HEADER % (\n        introspector.get_additional_imports(),\n        introspector.get_database_class().__name__,\n        introspector.get_database_name(),",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "print_header",
+        "kind": 2,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "def print_header(cmd_line, introspector):\n    timestamp = datetime.datetime.now()\n    print_('# Code generated by:')\n    print_('# python -m pwiz %s' % cmd_line)\n    print_('# Date: %s' % timestamp.strftime('%B %d, %Y %I:%M%p'))\n    print_('# Database: %s' % introspector.get_database_name())\n    print_('# Peewee version: %s' % peewee_version)\n    print_('')\ndef err(msg):\n    sys.stderr.write('\\033[91m%s\\033[0m\\n' % msg)",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "err",
+        "kind": 2,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "def err(msg):\n    sys.stderr.write('\\033[91m%s\\033[0m\\n' % msg)\n    sys.stderr.flush()\ndef get_option_parser():\n    parser = OptionParser(usage='usage: %prog [options] database_name')\n    ao = parser.add_option\n    ao('-H', '--host', dest='host')\n    ao('-p', '--port', dest='port', type='int')\n    ao('-u', '--user', dest='user')\n    ao('-P', '--password', dest='password', action='store_true')",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "get_option_parser",
+        "kind": 2,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "def get_option_parser():\n    parser = OptionParser(usage='usage: %prog [options] database_name')\n    ao = parser.add_option\n    ao('-H', '--host', dest='host')\n    ao('-p', '--port', dest='port', type='int')\n    ao('-u', '--user', dest='user')\n    ao('-P', '--password', dest='password', action='store_true')\n    engines = sorted(DATABASE_MAP)\n    ao('-e', '--engine', dest='engine', choices=engines,\n       help=('Database type, e.g. sqlite, mysql, postgresql or cockroachdb. '",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "get_connect_kwargs",
+        "kind": 2,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "def get_connect_kwargs(options):\n    ops = ('host', 'port', 'user', 'schema')\n    kwargs = dict((o, getattr(options, o)) for o in ops if getattr(options, o))\n    if options.password:\n        kwargs['password'] = getpass()\n    return kwargs\nif __name__ == '__main__':\n    raw_argv = sys.argv\n    parser = get_option_parser()\n    options, args = parser.parse_args()",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "HEADER",
+        "kind": 5,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "HEADER = \"\"\"from peewee import *%s\ndatabase = %s('%s'%s)\n\"\"\"\nBASE_MODEL = \"\"\"\\\nclass BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "database = %s('%s'%s)\n\"\"\"\nBASE_MODEL = \"\"\"\\\nclass BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_MODEL",
+        "kind": 5,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "BASE_MODEL = \"\"\"\\\nclass BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "UNKNOWN_FIELD",
+        "kind": 5,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "UNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],\n    MySQLDatabase: ['mysql', 'mysqldb'],\n    PostgresqlDatabase: ['postgres', 'postgresql'],\n    SqliteDatabase: ['sqlite', 'sqlite3'],\n}",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_ALIASES",
+        "kind": 5,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "DATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],\n    MySQLDatabase: ['mysql', 'mysqldb'],\n    PostgresqlDatabase: ['postgres', 'postgresql'],\n    SqliteDatabase: ['sqlite', 'sqlite3'],\n}\nDATABASE_MAP = dict((value, key)\n                    for key in DATABASE_ALIASES\n                    for value in DATABASE_ALIASES[key])\ndef make_introspector(database_type, database_name, **kwargs):",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_MAP",
+        "kind": 5,
+        "importPath": "venv.bin.pwiz",
+        "description": "venv.bin.pwiz",
+        "peekOfCode": "DATABASE_MAP = dict((value, key)\n                    for key in DATABASE_ALIASES\n                    for value in DATABASE_ALIASES[key])\ndef make_introspector(database_type, database_name, **kwargs):\n    if database_type not in DATABASE_MAP:\n        err('Unrecognized database, must be one of: %s' %\n            ', '.join(DATABASE_MAP.keys()))\n        sys.exit(1)\n    schema = kwargs.pop('schema', None)\n    DatabaseClass = DATABASE_MAP[database_type]",
+        "detail": "venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "find_birthdays",
+        "kind": 2,
+        "importPath": "check_b_day",
+        "description": "check_b_day",
+        "peekOfCode": "def find_birthdays():\n    \"\"\"\n    Поиск пользователей с днем рождения сегодня (сравниваем только день и месяц).\n    Возвращает список кортежей (user_id, username, gender, [chat_ids]).\n    \"\"\"\n    today = datetime.now().date()\n    # Текущий день и месяц (формат ММ-ДД)\n    today_month_day = today.strftime(\"%m-%d\")\n    results = []\n    # Находим всех пользователей с днем рождения, который совпадает с сегодняшним днем и месяцем",
+        "detail": "check_b_day",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "db",
+        "description": "db",
+        "peekOfCode": "class Person(Model):\n    tg_id = CharField(unique=True)  # Уникальный ID пользователя\n    # Имя и фамилия пользователя (может быть null)\n    full_name = CharField(null=True)\n    birthday = CharField(null=True)  # День рождения (может быть null)\n    # Пол (True - женский, False - мужской, null - не указан)\n    female = BooleanField(null=True)\n    class Meta:\n        database = db\nclass Chat(Model):",
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "kind": 6,
+        "importPath": "db",
+        "description": "db",
+        "peekOfCode": "class Chat(Model):\n    tg_id = CharField(unique=True)  # Уникальный ID чата\n    class Meta:\n        database = db\nclass ChatMember(Model):\n    chat = ForeignKeyField(Chat, backref='members')  # Связь с чатом\n    person = ForeignKeyField(Person, backref='chats')  # Связь с пользователем\n    class Meta:\n        database = db\n        indexes = (",
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMember",
+        "kind": 6,
+        "importPath": "db",
+        "description": "db",
+        "peekOfCode": "class ChatMember(Model):\n    chat = ForeignKeyField(Chat, backref='members')  # Связь с чатом\n    person = ForeignKeyField(Person, backref='chats')  # Связь с пользователем\n    class Meta:\n        database = db\n        indexes = (\n            (('chat', 'person'), True),  # Уникальная связь чат + пользователь\n        )\n# Создаем таблицы в базе данных\ndb.connect()",
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "db",
+        "description": "db",
+        "peekOfCode": "db = SqliteDatabase('bot_database.db')\nclass Person(Model):\n    tg_id = CharField(unique=True)  # Уникальный ID пользователя\n    # Имя и фамилия пользователя (может быть null)\n    full_name = CharField(null=True)\n    birthday = CharField(null=True)  # День рождения (может быть null)\n    # Пол (True - женский, False - мужской, null - не указан)\n    female = BooleanField(null=True)\n    class Meta:\n        database = db",
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "TG_TOKEN",
+        "kind": 5,
+        "importPath": "env",
+        "description": "env",
+        "peekOfCode": "TG_TOKEN = '7541797157:AAF8jgSpotplaFCEj3oKUkr3A3sGC4go3iA'\nADMIN_ID = '884995374'\nCLIENT_ID_UNSPLASH_SERVICE = 'hrtHW11t30U5uuAeUPSzGAeR6ZtsEdOw-bQE9_TaUIg'",
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "ADMIN_ID",
+        "kind": 5,
+        "importPath": "env",
+        "description": "env",
+        "peekOfCode": "ADMIN_ID = '884995374'\nCLIENT_ID_UNSPLASH_SERVICE = 'hrtHW11t30U5uuAeUPSzGAeR6ZtsEdOw-bQE9_TaUIg'",
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "CLIENT_ID_UNSPLASH_SERVICE",
+        "kind": 5,
+        "importPath": "env",
+        "description": "env",
+        "peekOfCode": "CLIENT_ID_UNSPLASH_SERVICE = 'hrtHW11t30U5uuAeUPSzGAeR6ZtsEdOw-bQE9_TaUIg'",
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "loader",
+        "description": "loader",
+        "peekOfCode": "path = pathlib.Path().absolute()\nbot = Bot(token=env.TG_TOKEN,\n          default=DefaultBotProperties(parse_mode=ParseMode.HTML))\nrouter = Router()\ndp = Dispatcher()\ndp.include_router(router)\nasync def on_start():\n    await dp.start_polling(bot)",
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "loader",
+        "description": "loader",
+        "peekOfCode": "bot = Bot(token=env.TG_TOKEN,\n          default=DefaultBotProperties(parse_mode=ParseMode.HTML))\nrouter = Router()\ndp = Dispatcher()\ndp.include_router(router)\nasync def on_start():\n    await dp.start_polling(bot)",
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "loader",
+        "description": "loader",
+        "peekOfCode": "router = Router()\ndp = Dispatcher()\ndp.include_router(router)\nasync def on_start():\n    await dp.start_polling(bot)",
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "dp",
+        "kind": 5,
+        "importPath": "loader",
+        "description": "loader",
+        "peekOfCode": "dp = Dispatcher()\ndp.include_router(router)\nasync def on_start():\n    await dp.start_polling(bot)",
+        "detail": "loader",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def start():\n    '''Начало скрипта'''\n    # получаем сообщение\n    birthdays = find_birthdays()\n    print(birthdays)\n    if not birthdays:\n        return\n    for user_id, username, gender, chat_ids in birthdays:\n        for chat_id in chat_ids:\n            # получаем картинку",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "random_image",
+        "kind": 2,
+        "importPath": "pic_api",
+        "description": "pic_api",
+        "peekOfCode": "def random_image():\n    '''Получение рандомной картинки по API'''\n    url = (f\"https://api.unsplash.com/photos/random?client_id={env.CLIENT_ID_UNSPLASH_SERVICE}\"\n           \"&collections=9155171\")\n    print(url)\n    headers = {'Authorization': 'key'}\n    response = requests.request(\"GET\", url, headers=headers)\n    return response.json()['urls']['regular']",
+        "detail": "pic_api",
+        "documentation": {}
+    },
+    {
+        "label": "EditUserFSM",
+        "kind": 6,
+        "importPath": "state",
+        "description": "state",
+        "peekOfCode": "class EditUserFSM(StatesGroup):\n    waiting_for_birthday = State()\n    waiting_for_gender = State()",
+        "detail": "state",
+        "documentation": {}
+    }
+]
