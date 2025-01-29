@@ -582,6 +582,33 @@
         "documentation": {}
     },
     {
+        "label": "TG_TOKEN",
+        "kind": 5,
+        "importPath": "env_example",
+        "description": "env_example",
+        "peekOfCode": "TG_TOKEN = ''\nADMIN_ID = ''\nCLIENT_ID_UNSPLASH_SERVICE = ''",
+        "detail": "env_example",
+        "documentation": {}
+    },
+    {
+        "label": "ADMIN_ID",
+        "kind": 5,
+        "importPath": "env_example",
+        "description": "env_example",
+        "peekOfCode": "ADMIN_ID = ''\nCLIENT_ID_UNSPLASH_SERVICE = ''",
+        "detail": "env_example",
+        "documentation": {}
+    },
+    {
+        "label": "CLIENT_ID_UNSPLASH_SERVICE",
+        "kind": 5,
+        "importPath": "env_example",
+        "description": "env_example",
+        "peekOfCode": "CLIENT_ID_UNSPLASH_SERVICE = ''",
+        "detail": "env_example",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "kind": 5,
         "importPath": "loader",
