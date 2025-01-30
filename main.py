@@ -51,8 +51,7 @@ def start():
                     # отправка в тг
                     requests.post(url, params=params, files=files)
                 except Exception as e:
-                    print(f'Ошибка при получении картинки для чата {
-                          chat_id} или ещё чё: {e}')
+                    print(f'Ошибка: {e}')
         except Exception as e:
             print(f'Ошибка при отправке в чат {chat_id}: {e}')
 
