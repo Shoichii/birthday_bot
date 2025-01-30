@@ -79,8 +79,8 @@ async def handle_reply_to_bot(msg: types.Message):
     3. Если нет пола — ожидает его.
     4. Если всё есть — игнорирует.
     """
-    add_command = '/add'
-    if msg.text != add_command:
+    add_command = ('/add', '/add@birthday_bbbbot')
+    if msg.text not in add_command:
         if not msg.reply_to_message or msg.reply_to_message.from_user.id != bot.id:
             return  # Игнорируем, если сообщение не является ответом боту
 
