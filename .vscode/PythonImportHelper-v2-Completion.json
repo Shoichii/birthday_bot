@@ -609,6 +609,15 @@
         "documentation": {}
     },
     {
+        "label": "is_valid_date",
+        "kind": 2,
+        "importPath": "handlers",
+        "description": "handlers",
+        "peekOfCode": "def is_valid_date(date_str: str) -> bool:\n    \"\"\"Проверяет, является ли строка корректной датой в формате ДД.ММ.ГГГГ или ДД.ММ\"\"\"\n    parts = date_str.split(\".\")\n    if len(parts) not in [2, 3]:\n        return False\n    day, month = parts[:2]\n    if not (day.isdigit() and month.isdigit()):\n        return False\n    day, month = int(day), int(month)\n    if not (1 <= month <= 12 and 1 <= day <= 31):",
+        "detail": "handlers",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "kind": 5,
         "importPath": "loader",
