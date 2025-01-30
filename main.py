@@ -22,8 +22,8 @@ def start():
                     pic = random_image()
 
                     # параметры для отправки в тг
-                    url = f'https://api.telegram.org/bot{
-                        env.TG_TOKEN}/sendPhoto'
+                    url = f'https://api.telegram.org/bot{env.TG_TOKEN}\
+                    /sendPhoto'
                     image_data = requests.get(pic).content
 
                     files = {
