@@ -16,15 +16,19 @@ def find_birthdays():
     users = Person.select().where(Person.birthday.endswith(today_month_day))
 
     for user in users:
-        # Находим все чаты, где присутствует пользователь
-        chat_memberships = ChatMember.select(
-            ChatMember.chat).where(ChatMember.person == user)
-        # Получаем tg_id из объекта chat
-        chat_ids = [membership.chat.tg_id for membership in chat_memberships]
+        try:
+            # Находим все чаты, где присутствует пользователь
+            chat_memberships = ChatMember.select(
+                ChatMember.chat).where(ChatMember.person == user)
+            # Получаем tg_id из объекта chat
+            chat_ids = [
+                membership.chat.tg_id for membership in chat_memberships]
 
-        # Определяем пол
-        gender = user.female
-        username = user.full_name
-        results.append((user.tg_id, username, gender, chat_ids))
+            # Определяем пол
+            gender = user.female
+            username = user.full_name
+            results.append((user.tg_id, username, gender, chat_ids))
+        except Exception as e:
+            print(e)
 
     return results

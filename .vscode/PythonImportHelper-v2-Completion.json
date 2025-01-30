@@ -17,14 +17,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -124,14 +116,6 @@
     },
     {
         "label": "SqliteDatabase",
-        "importPath": "peewee",
-        "description": "peewee",
-        "isExtraImport": true,
-        "detail": "peewee",
-        "documentation": {}
-    },
-    {
-        "label": "DoesNotExist",
         "importPath": "peewee",
         "description": "peewee",
         "isExtraImport": true,
@@ -259,28 +243,12 @@
         "documentation": {}
     },
     {
-        "label": "EditUserFSM",
-        "importPath": "state",
-        "description": "state",
-        "isExtraImport": true,
-        "detail": "state",
-        "documentation": {}
-    },
-    {
         "label": "env",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "env",
         "description": "env",
         "detail": "env",
-        "documentation": {}
-    },
-    {
-        "label": "StateFilter",
-        "importPath": "aiogram.filters",
-        "description": "aiogram.filters",
-        "isExtraImport": true,
-        "detail": "aiogram.filters",
         "documentation": {}
     },
     {
@@ -292,11 +260,11 @@
         "documentation": {}
     },
     {
-        "label": "FSMContext",
-        "importPath": "aiogram.fsm.context",
-        "description": "aiogram.fsm.context",
+        "label": "ChatMemberUpdated",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
         "isExtraImport": true,
-        "detail": "aiogram.fsm.context",
+        "detail": "aiogram.types",
         "documentation": {}
     },
     {
@@ -365,22 +333,6 @@
         "importPath": "handlers",
         "description": "handlers",
         "detail": "handlers",
-        "documentation": {}
-    },
-    {
-        "label": "State",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
-        "documentation": {}
-    },
-    {
-        "label": "StatesGroup",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
         "documentation": {}
     },
     {
@@ -658,7 +610,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def start():\n    '''Начало скрипта'''\n    # получаем сообщение\n    birthdays = find_birthdays()\n    print(birthdays)\n    if not birthdays:\n        return\n    for user_id, username, gender, chat_ids in birthdays:\n        for chat_id in chat_ids:\n            # получаем картинку",
+        "peekOfCode": "def start():\n    '''Начало скрипта'''\n    # получаем сообщение\n    birthdays = find_birthdays()\n    if not birthdays:\n        return\n    for user_id, username, gender, chat_ids in birthdays:\n        try:\n            for chat_id in chat_ids:\n                try:",
         "detail": "main",
         "documentation": {}
     },
@@ -669,15 +621,6 @@
         "description": "pic_api",
         "peekOfCode": "def random_image():\n    '''Получение рандомной картинки по API'''\n    url = (f\"https://api.unsplash.com/photos/random?client_id={env.CLIENT_ID_UNSPLASH_SERVICE}\"\n           \"&collections=9155171\")\n    print(url)\n    headers = {'Authorization': 'key'}\n    response = requests.request(\"GET\", url, headers=headers)\n    return response.json()['urls']['regular']",
         "detail": "pic_api",
-        "documentation": {}
-    },
-    {
-        "label": "EditUserFSM",
-        "kind": 6,
-        "importPath": "state",
-        "description": "state",
-        "peekOfCode": "class EditUserFSM(StatesGroup):\n    waiting_for_birthday = State()\n    waiting_for_gender = State()",
-        "detail": "state",
         "documentation": {}
     }
 ]

@@ -1,13 +1,9 @@
 from aiogram import types
 from loader import bot, router
 from db import Person, Chat, ChatMember
-from state import EditUserFSM
 import env
-from aiogram.filters import StateFilter
-from peewee import DoesNotExist
-from aiogram.fsm.context import FSMContext
-from datetime import datetime
 from aiogram.filters import Command
+from aiogram.types import ChatMemberUpdated
 
 
 def is_valid_date(date_str: str) -> bool:
@@ -83,6 +79,13 @@ async def handle_reply_to_bot(msg: types.Message):
         person, created = Person.get_or_create(
             tg_id=str(tg_id), defaults={"full_name": full_name})
 
+        # Получаем или создаем чат, в котором пришло сообщение
+        chat_id = msg.chat.id
+        chat, chat_created = Chat.get_or_create(tg_id=str(chat_id))
+
+        # Связываем пользователя с чатом, если такой связи нет
+        ChatMember.get_or_create(chat=chat, person=person)
+
         if created:
             await msg.answer(f"✅ {full_name}, ты добавлен. Теперь отправь в ответ дату рождения (ДД.ММ.ГГГГ или ДД.ММ)")
             return
@@ -125,3 +128,34 @@ async def handle_reply_to_bot(msg: types.Message):
     except Exception as e:
         print(f"Ошибка: {e}")
         await msg.answer("❌ Ошибка при обработке данных.")
+
+
+@router.chat_member()
+async def handle_chat_member_update(update: ChatMemberUpdated):
+    """
+    Обрабатывает события изменения статуса участников чата:
+    - Если пользователь покидает чат или удаляется, удаляет связь с чатом в базе данных.
+    """
+    if update.old_chat_member.status in ["member", "administrator", "creator"] and update.new_chat_member.status in ["left", "kicked"]:
+        person_id = str(update.old_chat_member.user.id)
+        chat_id = str(update.chat.id)
+
+        try:
+            # Получаем объект человека из базы данных
+            person = Person.get_or_none(tg_id=person_id)
+            if person:
+                # Получаем объект чата из базы данных
+                chat = Chat.get_or_none(tg_id=chat_id)
+                if chat:
+                    # Удаляем связь между пользователем и чатом
+                    chat_member = ChatMember.get_or_none(
+                        chat=chat, person=person)
+                    if chat_member:
+                        chat_member.delete_instance()  # Удаляем связь
+                        await update.bot.send_message(
+                            update.chat.id,
+                            f"❌ {person.full_name} покинул чат, связь с ним удалена."
+                        )
+        except Exception as e:
+            print(f"Ошибка при удалении связи: {e}")
+            await update.bot.send_message(update.chat.id, "❌ Произошла ошибка при обработке удаления связи.")
