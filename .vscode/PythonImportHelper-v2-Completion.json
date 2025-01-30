@@ -466,7 +466,7 @@
         "kind": 2,
         "importPath": "check_b_day",
         "description": "check_b_day",
-        "peekOfCode": "def find_birthdays():\n    \"\"\"\n    Поиск пользователей с днем рождения сегодня (сравниваем только день и месяц).\n    Возвращает список кортежей (user_id, username, gender, [chat_ids]).\n    \"\"\"\n    today = datetime.now().date()\n    # Текущий день и месяц (формат ММ-ДД)\n    today_month_day = today.strftime(\"%m-%d\")\n    results = []\n    # Находим всех пользователей с днем рождения, который совпадает с сегодняшним днем и месяцем",
+        "peekOfCode": "def find_birthdays():\n    \"\"\"\n    Поиск пользователей с днем рождения сегодня (сравниваем только день и месяц).\n    Возвращает список кортежей (user_id, username, gender, [chat_ids]).\n    \"\"\"\n    today = datetime.now().strftime(\"%d.%m\")\n    users = Person.select().where(\n        (Person.birthday == today) |\n        (Person.birthday.endswith(f\".{today}\"))\n    )",
         "detail": "check_b_day",
         "documentation": {}
     },
@@ -610,7 +610,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def start():\n    '''Начало скрипта'''\n    # получаем сообщение\n    birthdays = find_birthdays()\n    if not birthdays:\n        return\n    for user_id, username, gender, chat_ids in birthdays:\n        try:\n            for chat_id in chat_ids:\n                try:",
+        "peekOfCode": "def start():\n    '''Начало скрипта'''\n    # получаем сообщение\n    birthdays = find_birthdays()\n    print(birthdays)\n    if not birthdays:\n        return\n    for user_id, username, gender, chat_ids in birthdays:\n        print(username)\n        try:",
         "detail": "main",
         "documentation": {}
     },

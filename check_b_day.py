@@ -7,14 +7,13 @@ def find_birthdays():
     Поиск пользователей с днем рождения сегодня (сравниваем только день и месяц).
     Возвращает список кортежей (user_id, username, gender, [chat_ids]).
     """
-    today = datetime.now().date()
-    # Текущий день и месяц (формат ММ-ДД)
-    today_month_day = today.strftime("%m-%d")
+    today = datetime.now().strftime("%d.%m")
+
+    users = Person.select().where(
+        (Person.birthday == today) |
+        (Person.birthday.endswith(f".{today}"))
+    )
     results = []
-
-    # Находим всех пользователей с днем рождения, который совпадает с сегодняшним днем и месяцем
-    users = Person.select().where(Person.birthday.endswith(today_month_day))
-
     for user in users:
         try:
             # Находим все чаты, где присутствует пользователь
